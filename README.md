@@ -1,4 +1,33 @@
 # 🚀 Projeto de Automação com Playwright + Python
+```mermaid
+flowchart TD
+    A[Playwright]:::main
+
+    A --> B[Browsers]:::blue
+    A --> C[Devices]:::purple
+    A --> D[Request]:::red
+
+    B --> B1[Chrome]
+    B --> B2[Edge]
+    B --> B3[Firefox]
+    B --> B4[Safari]
+
+    B --> E[Context]:::green
+    C --> E
+    D --> E
+
+    E --> F[Page]:::main
+
+    F --> G[Navegação]
+    F --> H[Locator]
+    F --> I[Eventos]
+
+    classDef main fill:#f4a261,color:#fff,stroke:#333;
+    classDef blue fill:#4ea8de,color:#fff;
+    classDef purple fill:#7209b7,color:#fff;
+    classDef red fill:#ef476f,color:#fff;
+    classDef green fill:#2a9d8f,color:#fff;
+```
 
 Este repositório contém exemplos práticos de automação de navegadores utilizando **Playwright com Python**, com foco em interações reais com páginas web e simulação de fluxos comuns em sistemas corporativos.
 
